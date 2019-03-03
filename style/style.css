@@ -1,0 +1,365 @@
+html{
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper-container {
+  display: flex;
+  max-width: 1920px;
+  min-width: 320px;
+}
+.wrapper__left{
+  display:flex;
+  flex-direction:column;
+  width: 33.8125%;
+  margin-left: 4.921875%;
+  margin-top: 5.6875rem;
+}
+.wrapper__right{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width: 50.3125%;
+  margin-top:6.1875rem;
+  margin-left:6.09375%;
+}
+.intro-block {
+  display: flex;
+  flex-direction: column;
+}
+.circle-border{
+    width: 18.6vw;
+    height: 18.6vw;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 0.105vw solid #3d6cb0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left:23.5%;
+
+}
+.circle {
+    width: 16.4vw;
+    height: 16.4vw;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    background-color: #3d6cb0;
+}
+.circle-title__border{
+    width: 5.7vw;
+    height: 5.7vw;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 0.105vw solid #3d6cb0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.circle-title {
+    width: 5.14vw;
+    height: 5.25vw;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    background-color: #3d6cb0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+}
+.name-block{
+  border: 0.105vw solid #3d6cb0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.375rem;
+}
+.name-block__name{
+    /* Style for "NAME HERE" */
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 3.375rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 18%;
+  margin-top: -0.8rem;
+  letter-spacing: -0.025rem;
+}
+.name-block__surname{
+    /* Style for "SURNAME" */
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 5vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 17%;
+  margin-top: -0.8rem;
+  letter-spacing: -0.223rem;
+}
+.name-block__prof{
+    /* Style for "GRAPHIC DE" */
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 2.03125vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left:26%;
+  margin-top: 0.1rem;
+  letter-spacing: -0.125rem;
+}
+
+/*Profile block*/
+.profile-block{
+  display:flex;
+  flex-direction:column;
+  margin-top:4.75rem;
+}
+.title {
+  display:flex;
+  align-items: center;
+}
+.title__text{
+  /* Style for "PROFILE" */
+  /* Style for "PROFILE" */
+  color: #3d6cb0;
+  font-family: "Myriad Pro";
+  font-size: 2.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 2%;
+  letter-spacing: -0.12rem;
+
+}
+.title__line{
+  /* Style for "LINE" */
+  width: 100%;
+  height: 0.46875vw;
+  background-color: #3d6cb0;
+  margin-left: 1.61%;
+}
+.profile-article {
+  margin-top: 0.7rem;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Myriad Pro";
+  line-height: 1.15;
+  letter-spacing: 0.013rem;
+}
+
+/*Contact block*/
+.Contact-block {
+  display:flex;
+  flex-direction:column;
+  margin-top:2.75rem;
+}
+.contact-info {
+  margin-top: 1rem;
+  display: flex;
+}
+.contact__left {
+  line-height: 3.5rem;
+  color: #3d6cb0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  font-size: 1.3125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.08rem;
+}
+.contact__right {
+  line-height: 3.5rem;
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 1.3125rem;
+  font-weight: 400;
+  letter-spacing: -0.055rem;
+  margin-left: 10.33%;
+}
+
+/*Skills block*/
+.skills-block{
+  display:flex;
+  flex-direction:column;
+  margin-top:2.2rem;
+}
+
+.skills-graph{
+  margin-top: 1.4rem;
+  display:flex;
+  flex-direction:column;
+  
+}
+.skills-graph__title{
+    /* Style for "CREATIVE" */
+    margin-left: 38%;
+    color: #000000;
+    font-size: 1.6875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display:flex;
+    font-family: "Myriad Pro";
+    letter-spacing: -0.12rem;
+
+}
+.skills-graph__circle{
+  margin-left: 10.5%;
+  margin-top:0.50rem;
+  display:flex;
+  justify-content: space-between;
+  width: 69.01408450704225%;
+}
+.graph-circle{
+  width: 1.40625vw;
+  height: 1.40625vw;
+  background-color: #3d6cb0;
+  border-radius: 180px;
+}
+.graph-circle__grey{
+  background-color: #e6e6e6;
+}
+
+/*Education block*/
+.education {
+  display:flex;
+  flex-direction:column;
+}
+.list__item{
+  margin-top: 3.147432357813363%;
+}
+.list{
+  margin-top: 3.147432357813363%;
+}
+
+.list__title{
+  margin-top: 1.159580342352292%;
+  display:flex; 
+}
+.list__degree{
+  color: #3d6cb0;
+  font-size: 2.109375vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.list__date{
+  /* Style for "// Feb 201" */
+color: #020202;
+font-size: 2.109375vw;
+font-weight: 400;
+  margin-left: 1.171875%;
+}
+.list__university{
+  /* Style for "UNIVERSITY" */
+  margin-top: 0.9387078961899503%;
+  color: #000000;
+  font-size: 2.109375vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.list__text{
+  /* Style for "Lorem ipsu" */
+  margin-top: 0.8282716731087797%;
+  width: 35.8125rem;
+  color: #000000;
+  font-size: 1.25vw;
+  font-weight: 400;
+}
+
+.circle-marker {
+  /* Style for "circle" */
+  width: 1.71875vw;
+  height: 1.71875vw;
+  background-color: #000000;
+  border-radius: 240px;
+  margin-top: 4.307012700165655%;
+}
+.education-container{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+/*Experience block*/
+.experience {
+  display:flex;
+  flex-direction:column;
+  margin-top:4.307012700165654%;
+}
+
+.list__Company{
+    /* Style for "COMPANY NA" */
+  color: #000000;
+  font-size: 2.109375vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.list__job{
+  margin-top: 0.9387078961899503%;
+  color: #000000;
+  font-size: 2.109375vw;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.experience-container{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+/*Software block*/
+.software-block {
+  display:flex;
+  flex-direction:column;
+  margin-top: 4.307012700165654%;
+}
+progress {
+  background-color: #3d6cb0;
+  border: 0;
+  height: 2.032176121930567vw;
+}
+.software-info{
+  display:flex;
+}
+.software__right{
+  margin-left: 5.46875%;
+}
+.software-item__name {
+  /* Style for "DREAMWEAVE" */
+margin-top: 2.540220152413209vw;
+color: #000000;
+font-size: 2.109375vw;
+font-weight: 400;
+text-transform: uppercase;
+}
+.software-item__graph{
+  margin-top: 1.693480101608806vw;
+}
+progress{
+  background-color: #3d6cb0;
+}
+progress {
+  width: 22.421875vw;
+  height: 2.032176121930567vw;
+  background-color: #f3f3f3;
+}
+progress::-webkit-progress-bar {
+  /* стилевые правила */
+  background-color: #e6e6e6;
+}
+progress::-webkit-progress-value {
+  /* стилевые правила */
+  background-color: #3d6cb0;
+}
+@media screen and (max-width: 320px) {
+.wrapper-container {
+flex-direction:column;
+} 
+}
