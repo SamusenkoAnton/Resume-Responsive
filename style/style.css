@@ -18,11 +18,9 @@ html{
 .wrapper__right{
   display:flex;
   flex-direction:column;
-  justify-content:center;
-  align-items:center;
   width: 50.3125%;
   margin-top:4.9rem;
-  margin-left:4%;
+  margin-left:5.87%;
 }
 .intro-block {
   display: flex;
@@ -230,67 +228,48 @@ html{
 }
 
 /*Education block*/
-.education-block{
-  margin-top: -3rem;
-  margin-left: -1.6rem;
+.education {
+  display:flex;
+  flex-direction:column;
 }
 .education-list{
-
-}
-.education-container{
-  margin-top:-5rem;
-  display:flex;
-  flex-direction: column;
-  font-family: "Myriad Pro";
-  font-weight: 400;
-}
-.education-container:nth-child(1){
-  margin-top: 2rem;
-}
-.education-container:nth-child(2){
-  margin-top: 0.7rem;
-}
-.education-container:nth-child(3){
-  margin-top: -0.4rem;
-}
-.education-container:nth-child(4){
-  margin-top: -0.7rem;
+  margin-top: 1.5rem;
 }
 .list__item{
+  margin-top: 0.9rem;
+  margin-left: 7.5%;
+}
+.list{
   margin-top: 3.147432357813363%;
-  margin-left: 13%;
 }
 
 .list__title{
   margin-top: 1.159580342352292%;
   display:flex; 
-  
-
 }
 .list__degree{
   color: #3d6cb0;
   font-size: 2.109375vw;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: -0.11rem;
+  letter-spacing: -0.17rem;
 }
 
 .list__date{
   /* Style for "// Feb 201" */
-color: #020202;
-font-size: 2.109375vw;
-font-weight: 400;
-  margin-left: 2.6%;
-  letter-spacing: -0.05rem;
+  color: #020202;
+  font-size: 2.109375vw;
+  font-weight: 400;
+  margin-left: 2.7%;
 }
 .list__university{
   /* Style for "UNIVERSITY" */
-  margin-top: 0.75%;
+  margin-top: 0.9387078961899503%;
   color: #000000;
   font-size: 2.109375vw;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.17rem;
 }
 .list__text{
   /* Style for "Lorem ipsu" */
@@ -299,102 +278,33 @@ font-weight: 400;
   color: #000000;
   font-size: 1.25vw;
   font-weight: 400;
-  letter-spacing: -0.1rem;
+}
+.list_company {
+  color: black;
+}
+.job-block{
+  margin-top: 3.55rem;
+  margin-left: -7.7%;
+}
+.job-list{
+  margin-top: 2.7rem;
+  margin-left: -7.7%;
+}
+.software-block{
+  margin-top: 3.7rem;
+  margin-left: -9%;
 }
 
-.circle-marker {
-  /* Style for "circle" */
-  width: 1.375rem;
-  height: 1.375rem;
-  background-color: #000000;
-  border-radius: 240px;
-  margin-top: 1.9rem;
-
-}
-
-/*Experience block*/
-.experience-container {
-   display:flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  font-family: "Myriad Pro";
-  font-weight: 400;
-}
-.experience-container:nth-child(1){
-
-}
-.experience-container:nth-child(2){
-  margin-top: -0.7rem;
-}
-.experience-container:nth-child(3){
-  margin-top: -0.4rem;
-}
-.experience-container:nth-child(4){
-  margin-top: -0.7rem;
-}
-
-.list__company{
-  color: #3d6cb0;
-  font-size: 2.109375vw;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -0.11rem;
-}
-
-.list__date{
-  /* Style for "// Feb 201" */
-color: #020202;
-font-size: 2.109375vw;
-font-weight: 400;
-  margin-left: 2.6%;
-  letter-spacing: -0.05rem;
-}
-.list__job{
-  /* Style for "UNIVERSITY" */
-  margin-top: 0.75%;
-  color: #000000;
-  font-size: 2.109375vw;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: -0.1rem;
-}
-.list__text{
-  /* Style for "Lorem ipsu" */
-  margin-top: 0.8282716731087797%;
-  width: 35.8125rem;
-  color: #000000;
-  font-size: 1.25vw;
-  font-weight: 400;
-  letter-spacing: -0.1rem;
-}
-
-.circle-marker {
-  /* Style for "circle" */
-  width: 1.375rem;
-  height: 1.375rem;
-  background-color: #000000;
-  border-radius: 240px;
-  margin-top: 1.9rem;
-
-}
-
-/*Software block*/
-.software-block {
-  display:flex;
-  flex-direction:column;
-  margin-top: 4.307012700165654%;
-}
-progress {
-  background-color: #3d6cb0;
-  border: 0;
-  height: 2.032176121930567vw;
-}
 .software-info{
   display:flex;
+  margin-top: -0.5rem;
+  margin-left: 1%;
 }
 .software__right{
-  margin-left: 5.46875%;
+  margin-left: 11%;
+}
+.software_item{
+  margin-top: 1rem;
 }
 .software-item__name {
   /* Style for "DREAMWEAVE" */
@@ -407,12 +317,11 @@ text-transform: uppercase;
 .software-item__graph{
   margin-top: 1.693480101608806vw;
 }
-progress{
-  background-color: #3d6cb0;
-}
+
 progress {
+  margin-top: -1.5%;
   width: 22.421875vw;
-  height: 2.032176121930567vw;
+  height: 1.5rem;
   background-color: #f3f3f3;
 }
 progress::-webkit-progress-bar {
