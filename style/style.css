@@ -2,6 +2,7 @@ html{
   font-size: 16px;
   margin: 0px;
   padding: 0px;
+  font-family: "Myriad Pro";
 }
 .wrapper-container {
   display: flex;
@@ -249,35 +250,47 @@ html{
 }
 .list__degree{
   color: #3d6cb0;
-  font-size: 2.109375vw;
+  font-size: 1.6875rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: -0.17rem;
+  letter-spacing: -0.1rem;
 }
 
 .list__date{
   /* Style for "// Feb 201" */
   color: #020202;
-  font-size: 2.109375vw;
+  font-size: 1.6875rem;
   font-weight: 400;
   margin-left: 2.7%;
+  letter-spacing: -0.05rem;
 }
 .list__university{
   /* Style for "UNIVERSITY" */
-  margin-top: 0.9387078961899503%;
+  margin-top: 0.4rem;
   color: #000000;
-  font-size: 2.109375vw;
+  font-size: 1.6875rem;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: -0.17rem;
+  letter-spacing: -0.08rem;
+}
+.list_job{
+  /* Style for "UNIVERSITY" */
+  margin-top: 0.9387078961899503%;
+  color: #000000;
+  font-size: 1.6875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.08rem;
 }
 .list__text{
   /* Style for "Lorem ipsu" */
-  margin-top: 0.8282716731087797%;
+  margin-top: 0.35rem;
   width: 35.8125rem;
   color: #000000;
-  font-size: 1.25vw;
+  font-size: 1rem;
   font-weight: 400;
+  letter-spacing: -0.1rem;
+  margin-left: 1%;
 }
 .list_company {
   color: black;
@@ -287,8 +300,15 @@ html{
   margin-left: -7.7%;
 }
 .job-list{
-  margin-top: 2.7rem;
+  margin-top: 2.6rem;
   margin-left: -7.7%;
+}
+.list_date-company{
+  color: #020202;
+  font-size: 1.6875rem;
+  font-weight: 400;
+  margin-left: 2.7%;
+  letter-spacing: -0.08rem;
 }
 .software-block{
   margin-top: 3.7rem;
@@ -297,14 +317,14 @@ html{
 
 .software-info{
   display:flex;
-  margin-top: -0.5rem;
+  margin-top: 0.5rem;
   margin-left: 1%;
 }
 .software__right{
   margin-left: 11%;
 }
 .software_item{
-  margin-top: 1rem;
+  margin-top: -1rem;
 }
 .software-item__name {
   /* Style for "DREAMWEAVE" */
@@ -313,13 +333,25 @@ color: #000000;
 font-size: 2.109375vw;
 font-weight: 400;
 text-transform: uppercase;
+letter-spacing: -0.10rem;
 }
 .software-item__graph{
   margin-top: 1.693480101608806vw;
 }
-
+.list__item::before{
+  content: "";
+  position: absolute;
+  width: 1.375rem;
+  height: 1.375rem;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: -3%;
+  margin-top: 0.5rem;
+}
 progress {
-  margin-top: -1.5%;
+  margin-top: -0.5rem;
   width: 22.421875vw;
   height: 1.5rem;
   background-color: #f3f3f3;
